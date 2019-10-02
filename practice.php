@@ -7,7 +7,7 @@ $b = 7;
 echo $a + $b;
 
 $tech_boost = "tech";
-$tech_boost .= "boost";
+$tech_boost .= " boost";
 echo $tech_boost;
 
 $calendar_2018 = [
@@ -24,6 +24,7 @@ $calendar_2018 = [
   "November" => "11月",
   "December" => "12月"
 ];
+
 echo $calendar_2018["December"];
 
 $hello = "Hello,";
